@@ -1,4 +1,4 @@
-#clarc (CommandLine Archiva)
+## Clarc (CommandLine Archiva)
 
 clarc is a simple CLI tool to archive data like day-to-day commands, notes, text, passcodes etc.
 The data is stored in a shared sqlite in-memory connection and can be archived & retrieved with helpful commands.
@@ -13,7 +13,7 @@ $ python -m pip install -r requirements.txt
 $ python -m clarc init
 ```
 
-##Usage
+## Usage
 ```sh
 $python -m clarc --help
 Usage: clarc [OPTIONS] COMMAND [ARGS]...
