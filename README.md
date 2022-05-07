@@ -58,5 +58,8 @@ Commands:
 | `fetch`         | fetch all or a specific entry by key from database.         | 
 | `remove`         | removes an entry from db by `key` from database.         | 
 
+![alt text](https://raw.githubusercontent.com/sandiemann/clarc-cli/main/img/clarc.png)
+
+
 ## Release History
 - 0.1.0
