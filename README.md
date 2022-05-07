@@ -3,7 +3,22 @@
 clarc is a simple CLI tool to archive data like day-to-day commands, notes, text, passcodes etc.
 The data is stored in a shared sqlite in-memory connection and can be archived & retrieved with helpful commands.
 The output response is shown in the terminal as json.
-##Install
+
+## Installation
+
+## Using Pip
+
+```bash
+$ pip install clarc
+```
+
+## Manual
+
+```bash
+$ git clone https://github.com/sandiemann/clarc-cli
+$ cd clarc
+$ python setup.py install
+```
 * Install the dependencies:
 ```sh
 $ python -m pip install -r requirements.txt
@@ -27,9 +42,9 @@ Options:
   --help                Show this message and exit.
 
 Commands:
-  fetch   fetch the archived entries '--all' or by '--key' ${key}
+  fetch   fetch the archived entries --all or by --key ${key}
   init    initialize the database.
-  remove  remove an archived entry by specefic --key' ${key}
+  remove  remove an archived entry by specefic --key ${key}
   upsert  update on duplicate key else insert a new entry to db
 ```
 
@@ -41,7 +56,7 @@ Commands:
 | `init`        | Initializes the application's sqlite database.| 
 | `upsert`         | insert or update a new entry to the database with a `key:value` pair.         | 
 | `fetch`         | fetch all or a specific entry by key from database.         | 
-| `remove`         | removes an entry from db by `key` from database         | 
+| `remove`         | removes an entry from db by `key` from database.         | 
 
 ## Release History
 - 0.1.0
