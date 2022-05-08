@@ -11,6 +11,7 @@ The output response is shown in the terminal as json.
 ```bash
 $ pip install clarc
 ```
+PyPI: https://pypi.org/project/clarc/
 
 ## Manual
 
