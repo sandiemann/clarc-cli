@@ -20,10 +20,6 @@ $ git clone https://github.com/sandiemann/clarc-cli
 $ cd clarc
 $ python setup.py install
 ```
-* Install the dependencies:
-```sh
-$ python -m pip install -r requirements.txt
-```
 * Initialize the application (database initialize):
 ```sh
 $ python -m clarc init
