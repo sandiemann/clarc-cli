@@ -11,6 +11,7 @@ The output response is shown in the terminal as json.
 ```bash
 $ pip install clarc
 ```
+PyPI: https://pypi.org/project/clarc/
 
 ## Manual
 
@@ -57,6 +58,9 @@ Commands:
 | `upsert`         | insert or update a new entry to the database with a `key:value` pair.         | 
 | `fetch`         | fetch all or a specific entry by key from database.         | 
 | `remove`         | removes an entry from db by `key` from database.         | 
+
+![alt text](https://raw.githubusercontent.com/sandiemann/clarc-cli/main/img/clarc.png)
+
 
 ## Release History
 - 0.1.0
